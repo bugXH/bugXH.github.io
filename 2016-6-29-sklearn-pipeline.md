@@ -2,7 +2,6 @@
 layout: post
 title: sklearn pipeline features
 ---
-
 An example of using pipeline:
 
 <!--{% highlight python %}-->
