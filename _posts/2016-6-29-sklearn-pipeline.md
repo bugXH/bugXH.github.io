@@ -6,9 +6,9 @@ An example of using pipeline:
 
 {% highlight python %}
 senti_clf = Pipeline([
-                      ('vect', CountVectorizer(max_features=100000)),
+                      ('vect', CountVectorizer()),
                       ('tfidf', TfidfTransformer()),
-                      ('clf', LinearSVC(C=1000)),
+                      ('clf', LinearSVC()),
                       ])
 {% endhighlight %}
 
