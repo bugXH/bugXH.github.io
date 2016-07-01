@@ -1,7 +1,9 @@
 ---
 layout: post
-title: sklearn pipeline features
+title: Features confusion when using sklearn pipeline
 ---
+Previously I had a confusion about the features when using sklearn pipeline to train a sentiment classifier.
+
 An example of using pipeline:
 
 {% highlight python %}
