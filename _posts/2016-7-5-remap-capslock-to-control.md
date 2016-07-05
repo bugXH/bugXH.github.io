@@ -31,5 +31,7 @@ fi
 Based on this [site](http://askubuntu.com/questions/321510/set-context-menu-key-to-function-as-right-control)
 
 Issues:
+
 * If the laptop wakes up from sleep, the mapping doesn't work. Needs to log out and log back in to enable to new mapping
+
 * The script added in **~/.xinitrc** will cause a "login loop" after reboot
