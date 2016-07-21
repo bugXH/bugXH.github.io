@@ -16,3 +16,7 @@ setup(
 {% endhighlight %}
 
 After installing the module using pip, use **conda list** to check.
+
+**Update:**
+
+After installing Anaconda, the python script that keeps my modified key-mapping working failed. The problem is that dbus and gobject are not installed in Anaconda. There are only some third party channels provide the packages. So I just change the "python" to "/usr/bin/python" in command of the start applications.
